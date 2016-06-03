@@ -9,4 +9,4 @@ Download this content to a folder on a server
 
 In the .htaccess file. Change RewriteBase
 
-Det finns en SQLite databas utan något innehåll
+There is a SQLite database without any content
