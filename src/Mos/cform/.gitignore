@@ -1,0 +1,5 @@
+# phpunit
+coverage/
+coverage.clover
+composer.lock
+vendor/

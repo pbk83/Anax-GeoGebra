@@ -1,0 +1,264 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+  overflow-y: scroll;
+	margin: 0px;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 130px;
+  font-style: italic;
+  color: #666;
+}
+
+.sitelogo {
+	height: 100px;
+}
+
+#user-info {
+	background: #9999FF;
+	border: solid;
+	border-color: black;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#user-profile-header {
+	color: white;
+}
+
+#login-out{
+	float: right;
+	color: white;
+}
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 22px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+
+/**
+ * For articles
+ */
+.article1 {
+  width: 700px;
+  border-right: 1px solid #ccc;
+  padding-right: 1em;
+}
+
+.article1 h1,
+.article1 h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+.byline {
+  margin-top: 44px;
+  border-top: 1px dashed #ccc;
+  padding-top: 22px;
+  color: #666;
+}
+
+.byline p {
+  margin-top: 0;
+}
+
+.question-wrapper {
+	overflow: auto;
+	background-color: #F9F9F9;
+}
+
+.question-heading, a{
+	color: #666;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.question-heading, a:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.question-left {
+	float: left;
+	width: 70%;
+	padding-left: 10px;
+}
+
+.question-right {
+	float: left;
+	padding-left: 10px;
+}
+
+.question-text {
+	width: 70%;
+  margin-bottom: 20px;
+}
+
+#new-question-wrapper {
+	width:70%;
+}
+
+fieldset {
+	border: none;
+}
+
+#form-element-question_heading {
+	width: 100%;
+}
+#form-element-question_text {
+	width: 100%;
+	height: 250px;
+	resize: none;
+}
+
+ #form-element-answer_text {
+	width: 70%;
+	height: 250px;
+	resize: none;
+}
+
+.answer-wrapper {
+	overflow: auto;
+	background-color: #F9F9F9;
+}
+
+.answer-left {
+	float: left;
+	width: 70%;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.answer-right {
+	float: left;
+	padding-left: 10px;
+}
+
+.user-wrapper {
+	overflow: auto;
+	background-color: #F9F9F9;
+	margin-bottom: 10px;
+}
+
+.user-left {
+	float: left;
+	width: 25%;
+	padding-left: 10px;
+}
+.user-right {
+	float: left;
+	padding-left: 10px;
+}
+
+#asked-questions {
+	float: left;
+	width: 50%;
+}
+
+#answered-questions {
+	float: left;
+	width: 50%;
+}
+
+#activity-wrapper {
+	overflow: auto;
+}
+
+.comment-textarea {
+	resize: none;
+}
+
+.comment-img {
+	cursor: pointer;
+}
+
+.comment-wrapper {
+	overflow: auto;
+	border-bottom-style: groove;
+}
+
+.comment-wrapper p {
+	margin: 5px;
+}
+
+.comment-left {
+	float: left;
+	width: 70%;
+	padding-left: 0px;
+	padding-top: 10px;
+}
+
+.comment-right {
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#start-wrapper {
+	overflow: auto;
+}
+#start-left {
+	width: 50%;
+	float: left;
+}
+
+#start-right {
+	width: 45%;
+	float: left;
+	padding-left: 10px;
+}
